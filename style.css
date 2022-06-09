@@ -18,10 +18,10 @@ body {
   height: 100vh;
   /* background-image: url(./design/desktop-design.jpg); */
   /* background-image: url(./design/desktop-thank-you-state.jpg); */
-  background-image: url(./design/mobile-design.jpg);
+  /* background-image: url(./design/mobile-design.jpg); */
   /* background-image: url(./design/mobile-thank-you-state.jpg); */
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
   background-color: var(--very-dark-blue);
   color: var(--white);
   display:flex;
@@ -45,9 +45,9 @@ body {
 }
 
 .container {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   max-width: 415px;
-  height: 415px;
+  /* height: 415px; */
   padding: 32px;
   padding-right: 40px;
   background-color: var(--dark-blue);
@@ -157,4 +157,73 @@ body {
 #thanks > p {
   margin-top: 9px;
   line-height: 1.5rem;
+}
+
+@media screen and (max-width: 600px), (max-height: 450px) {
+  .container {
+    margin: 23px;
+    /* height: 360px; */
+    border-radius: 15px;
+    padding: 24px 25px;
+  }
+  
+  #rating .image, #rating .options button {
+    width: 40px;
+    height: 40px;
+  }
+
+  #rating .image img {
+    width: 16px;
+    height: 16px;
+  }
+  #rating h2 {
+    margin-top: 18px;
+    font-size: 1.5rem;
+  }
+  #rating p {
+    margin-top: 12px;
+    line-height: 1.4rem;
+    font-size: 14px;
+  }
+  #rating .options {
+    margin-top: 28px;
+  }
+  #rating button.submit {
+    margin-top: 24px;
+    padding-top: 1px;
+  }
+  #thanks .image {
+    margin-top: 10px;
+  }
+  #thanks .image img {
+    height: 96px;
+  }
+  #thanks .result {
+    padding-left: 2px;
+    /* padding-right: 10px; */
+  }
+  #thanks .result p {
+    margin-top: 19px;
+    padding: 6px 11px;
+    font-size: 0.89rem;
+  }
+  #thanks .result h2 {
+    margin-top: 27px;
+    font-size: 1.485rem;
+  }
+  #thanks > p {
+    font-size: 0.87rem;
+    margin-top: 12px;
+    line-height: 1.4rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .attribution {
+    display: block;
+    text-align: center;
+  }
+  .attribution span{
+    display: block;
+  }
 }
