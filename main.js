@@ -20,6 +20,6 @@ function submitRating() {
     document.querySelector('#rating').classList.add('hide')
     document.querySelector('#thanks').classList.remove('hide')
   } else {
-    console.log('Selecione um item primeiro!')
+    console.log('Select an item first!')
   }
 }
