@@ -44,6 +44,14 @@ body {
   margin-left: 0.25rem;
 }
 
+button {
+  cursor: pointer;
+}
+
+.submit:hover{
+  filter: brightness(130%); 
+}
+
 .container {
   /* opacity: 0.5; */
   max-width: 415px;
