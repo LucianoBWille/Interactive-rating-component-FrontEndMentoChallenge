@@ -31,12 +31,16 @@ Users should be able to:
 ### Screenshots
 
 #### Desktop
-![Desktop Aks](./screenshots/desktop-ask.png)
-![Desktop Thanks](./screenshots/desktop-thanks.png)
-#### Mobile
-![Mobile Aks](./screenshots/mobile-ask.png)
-![Mobile Thanks](./screenshots/mobile-thanks.png)
+<p align="center">
+  <img src="./screenshots/desktop-ask.png" alt="Desktop Aks" width="90%"/>
+  <img src="./screenshots/desktop-thanks.png" alt="Desktop Thanks" width="90%"/>
+</p>
 
+#### Mobile
+<p align="center">
+  <img src="./screenshots/mobile-ask.png" alt="Mobile Aks" width="45%"/>
+  <img src="./screenshots/mobile-thanks.png" alt="Mobile Thanks" width="45%"/>
+</p>
 ### Links
 
 - Solution URL: https://github.com/LucianoBWille/Interactive-rating-component-FrontEndMentorChallenge
