@@ -38,10 +38,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* font-size: 11px; */
 }
 
 .attribution a {
-  margin-left: 0.25rem;
+  color: hsl(228, 45%, 44%);
 }
 
 button {
