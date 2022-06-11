@@ -41,6 +41,7 @@ Users should be able to:
   <img src="./screenshots/mobile-ask.png" alt="Mobile Aks" width="45%"/>
   <img src="./screenshots/mobile-thanks.png" alt="Mobile Thanks" width="45%"/>
 </p>
+
 ### Links
 
 - Solution URL: https://github.com/LucianoBWille/Interactive-rating-component-FrontEndMentorChallenge
